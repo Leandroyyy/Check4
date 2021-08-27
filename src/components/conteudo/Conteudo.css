@@ -1,31 +1,31 @@
-
-
 .content{
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content:center;
-    padding:0 6rem;
+    padding:0 10rem;
 }
 
-.title{
-    display: flex;
+.description{
+    display:flex;
     flex-direction: column;
+    align-items: flex-end;
 
+    padding:0 5rem;
+}
+
+.description img{
+    width:10vw;
+}
+
+.description p {
     padding:1rem 0;
 }
 
-.title h1{
-   
-    color:#262626;
-    font-size:2.5rem;
-    font-weight: 700;
-    line-height: 2.875rem;
+
+@media only screen and (max-width: 750px) {
+    .description{
+        padding:0;
+        align-items:center
+    }    
 }
-
-
-#imageAuthor{
-    width:10%;
-}
-
-,

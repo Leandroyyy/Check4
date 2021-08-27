@@ -1,5 +1,7 @@
 import React from "react"
 
+import Bolinha from "../../img/bolinha.png"
+
 import "./Nav.css"
 
 export default function Nav(){
@@ -7,7 +9,7 @@ export default function Nav(){
         <>
             <nav>
                 <ul className="list">
-                    <li><a href="#">Nacional</a></li>
+                    <li><a href="#">Nacional <img src={Bolinha} alt="ao vivo" /> </a></li>
                     <li><a href="#">Business</a></li>
                     <li><a href="#">Internacional</a></li>
                     <li><a href="#">Saúde</a></li>

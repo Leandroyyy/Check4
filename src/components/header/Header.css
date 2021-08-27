@@ -1,0 +1,44 @@
+header{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        padding:0 12rem;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+
+    padding:1rem 0;
+}
+
+.title h1{
+   
+    padding:1rem 0;
+    color:#262626;
+    font-size:2.5rem;
+    font-weight: 700;
+    line-height: 2.875rem;
+}
+
+.title p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding:0.5rem 0;
+}
+
+.imageAuthor{
+    width:10%;
+    padding:1rem 0;
+}
+
+.dia{
+    font-weight: 400;
+    font-size:0.75rem;
+    line-height:1rem;
+    color:#4D4D4D;
+    font-style: normal;
+}
