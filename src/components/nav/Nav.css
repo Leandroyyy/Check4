@@ -1,0 +1,25 @@
+.list{
+    background-color: #000;
+
+    margin-top:1rem;
+
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.list li{
+    padding:1rem 1.5rem;
+
+    list-style-type: none;
+}
+
+.list a{
+    color:#fff;
+    text-decoration:none;
+}
+
+.list li:hover{
+    background:rgb(128, 128, 128,50%)
+}
