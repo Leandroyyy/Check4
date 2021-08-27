@@ -20,6 +20,11 @@
     text-decoration:none;
 }
 
+.list img{
+    width:0.8rem;
+    opacity: 0.7;
+}
+
 .list li:hover{
     background:rgb(128, 128, 128,50%)
 }
